@@ -4,10 +4,8 @@ from hangman_words import word_list as word_dict
 
 print(logo)
 word = random.choice(word_dict)
-print(word)
 word_list = list(word)
 word_hidden = list("_" * len(word))
-print("H A N G M A N")
 hangman = ""
 # hangman = list("hangman")
 # hangman_hidden = list("_" * len(hangman))
